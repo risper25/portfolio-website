@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Risper Bevalyn is an AI automation engineer and Python developer based in Kenya."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Risper Bevalyn — AI Automation Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Risper, home">risper<span>.</span></a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="menu-toggle__line"></span>
+        <span class="menu-toggle__line"></span>
+      </button>
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main" class="page-content">
+      <section class="panel hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-portrait" role="img" aria-label="Illustrated portrait">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="portrait-halo" cx="60" cy="60" r="54" />
+            <circle class="portrait-head" cx="60" cy="38" r="15" />
+            <path class="portrait-body" d="M37 92c2-17 11-27 23-27s21 10 23 27" />
+            <path class="portrait-detail" d="M50 38h20M60 53v12m-12 9 12-9 12 9" />
+          </svg>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Hello, thanks for stopping by</p>
+          <h1 id="hero-title">Hello, I’m <em>Risper.</em></h1>
+          <p class="hero-intro">
+            AI Automation Engineer and Python Developer building practical AI, data, and backend
+            systems. Based in Kenya.
+          </p>
+          <a class="hero-link" href="#experience">Know more about me <span aria-hidden="true">↓</span></a>
+        </div>
+        <span class="hero-index" aria-hidden="true">PORTFOLIO / 2026</span>
+      </section>
+
+      <section class="panel experience" id="experience" aria-labelledby="experience-title">
+        <div class="section-topline">
+          <p class="eyebrow">01 <span class="eyebrow-line"></span> Professional background</p>
+          <h2 id="experience-title">Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date">Present</p>
+            <div class="timeline-detail">
+              <h3>AI Automation Engineer</h3>
+              <p class="timeline-place">Catalyzu · Remote — Cape Town, South Africa</p>
+              <p>
+                Developed a multi-agent WhatsApp learning assistant with n8n and built RAG
+                services using FastAPI, vector databases, and LangGraph. Added Langfuse
+                observability to track quality, latency, and token use.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date">May — Sep 2025</p>
+            <div class="timeline-detail">
+              <h3>AI Developer Consultant</h3>
+              <p class="timeline-place">ARK · Nairobi, Kenya</p>
+              <p>
+                Built an AWS Lambda and Textract document-processing pipeline that cut manual
+                processing time by 70%, plus Django tracking and notification workflows.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date">Oct 2024 — Jun 2025</p>
+            <div class="timeline-detail">
+              <h3>Python Developer</h3>
+              <p class="timeline-place">Trubai · New York, USA</p>
+              <p>
+                Built an n8n transportation analyst agent, AWS Glue ETL pipelines, and document
+                processing for a retrieval-augmented research system.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date">Mar — Sep 2024</p>
+            <div class="timeline-detail">
+              <h3>Python Developer</h3>
+              <p class="timeline-place">InterIntel Technologies · Nairobi, Kenya</p>
+              <p>
+                Created Django REST monitoring with Prometheus and Grafana, reducing issue
+                resolution time by 40%, and built a Kafka order-data integration.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date">Nov 2021 — Jul 2022</p>
+            <div class="timeline-detail">
+              <h3>Junior Engineer</h3>
+              <p class="timeline-place">Sendy Ltd · Nairobi, Kenya</p>
+              <p>Researched and improved vehicle route-optimization algorithms by 10%.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date">Aug — Nov 2021</p>
+            <div class="timeline-detail">
+              <h3>Software Intern</h3>
+              <p class="timeline-place">Sendy Ltd · Nairobi, Kenya</p>
+              <p>Improved existing solutions using data structures and algorithms.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-topline">
+          <p class="eyebrow">02 <span class="eyebrow-line"></span> Highlights from my work</p>
+          <h2 id="projects-title">Selected work</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art project-art--blue" role="img" aria-label="Abstract blue interface illustration">
+              <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="art-panel art-panel--one" aria-hidden="true"></span>
+              <span class="art-panel art-panel--two" aria-hidden="true"></span>
+              <span class="art-panel art-panel--three" aria-hidden="true"></span>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>WhatsApp Learning Assistant</h3>
+                <p>Catalyzu · n8n · FastAPI · LangGraph</p>
+                <p class="project-description">
+                  A multi-agent chatbot giving learners automated support and guidance.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art project-art--orange" role="img" aria-label="Abstract orange and cream shapes">
+              <span class="shape shape--circle" aria-hidden="true"></span>
+              <span class="shape shape--arch" aria-hidden="true"></span>
+              <span class="shape shape--small" aria-hidden="true"></span>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Serverless Document Processing</h3>
+                <p>ARK · AWS Lambda · Textract · Django</p>
+                <p class="project-description">
+                  Automated OCR and registration data extraction, cutting manual processing time
+                  by 70%.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art project-art--green" role="img" aria-label="Abstract green landscape">
+              <span class="landscape landscape--back" aria-hidden="true"></span>
+              <span class="landscape landscape--front" aria-hidden="true"></span>
+              <span class="landscape-sun" aria-hidden="true"></span>
+            </div>
+            <div class="project-meta">
+              <div>
+                <h3>Transportation Research Assistant</h3>
+                <p>Trubai · n8n · AWS Glue · RAG</p>
+                <p class="project-description">
+                  Combined transit data and research documents to generate context-aware
+                  transportation insights.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel skills" id="skills" aria-labelledby="skills-title">
+        <div class="section-topline">
+          <p class="eyebrow">03 <span class="eyebrow-line"></span> Tools of the trade</p>
+          <h2 id="skills-title">Skills</h2>
+        </div>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>AI &amp; Automation</h3>
+            <ul class="skill-list">
+              <li>RAG</li><li>n8n</li><li>LangGraph</li><li>LangChain</li>
+              <li>Langfuse</li><li>PyTorch</li><li>Prompt engineering</li>
+              <li>LLM fine-tuning</li><li>AWS Bedrock</li><li>Pinecone</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Programming &amp; Data</h3>
+            <ul class="skill-list">
+              <li>Python</li><li>pandas</li><li>NumPy</li><li>FastAPI</li>
+              <li>Django</li><li>REST APIs</li><li>PostgreSQL</li><li>pgvector</li>
+              <li>Apache Kafka</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Cloud &amp; DevOps</h3>
+            <ul class="skill-list">
+              <li>AWS</li><li>Lambda</li><li>S3</li><li>Textract</li>
+              <li>EC2</li><li>Glue</li><li>RDS</li><li>Athena</li>
+              <li>Redshift</li><li>Docker</li>
+              <li>GitHub Actions</li><li>Prometheus</li><li>Grafana</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel education" id="education" aria-labelledby="education-title">
+        <div class="section-topline">
+          <p class="eyebrow">04 <span class="eyebrow-line"></span> Learning &amp; credentials</p>
+          <h2 id="education-title">Education</h2>
+        </div>
+        <div class="education-grid">
+          <article>
+            <p class="education-date">2016 — 2021</p>
+            <h3>BSc Computer Science</h3>
+            <p>Egerton University · Nakuru, Kenya</p>
+          </article>
+          <article>
+            <p class="education-date">Oct — Dec 2022</p>
+            <h3>Applied Data</h3>
+            <p>Equitech Futures, Applied Data Institute · Remote</p>
+          </article>
+          <article>
+            <p class="education-date">Udacity</p>
+            <h3>Deep Learning with PyTorch</h3>
+            <p>Deep Reinforcement Learning</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">05 <span class="eyebrow-line"></span> Get in touch</p>
+          <h2 id="contact-title">Let’s build something <em>useful.</em></h2>
+          <p class="contact-location">Based in Kenya · Open to global opportunities</p>
+        </div>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:risperadera@gmail.com">risperadera@gmail.com <span aria-hidden="true">↗</span></a>
+          <a href="tel:+254792792372">+254 792 792 372</a>
+          <a href="https://github.com/risper25" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/risper-bevalyn-b29574146/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://medium.com/@risper25" target="_blank" rel="noreferrer">Medium <span aria-hidden="true">↗</span></a>
+          <a href="https://n8n.io/creators/risper254/" target="_blank" rel="noreferrer">n8n Creator <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#home" aria-label="Risper Bevalyn, back to top">risper<span>.</span></a>
+      <p>Risper Bevalyn · © <span id="current-year"></span></p>
+      <a class="back-to-top" href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
